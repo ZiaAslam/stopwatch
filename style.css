@@ -1,0 +1,77 @@
+body {
+    background-color: #fff;
+}
+.container {
+    margin-top: 10px;
+}
+
+.sec{
+    border: 1px solid;
+    background-color: lightgray;
+}
+.displayTimer {
+    font-size: 190px;
+    margin-left: 25px;
+}
+.buttons button {
+    border: 1px solid;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 600px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.buttons {
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+#start:hover {
+    background-color: #add8e6;
+    color: black;
+}
+#reset:hover {
+    background-color: #85b0bd;
+}
+#split:hover {
+    background-color: #ffa500;
+    color: black;
+  
+}
+
+.styling {
+    background-color: lightgrey;
+    color: #ffa500;
+    width: "80px";
+    text-align: left;
+    font-size: 30px;
+
+}
+hr { border: 1px solid darkgrey; 
+    width: 97%;
+     margin: auto;
+      margin-top: 5%;
+       margin-bottom: 2%; 
+    }
+    #stop-time{
+        margin-left: 50px;
+        font-size: 40px;
+        color:#ffa500 ;
+    }
+span{
+    margin-right: 300px;
+    margin-left: 20px;
+    color:#36454F;
+}
+#spn{
+    
+    margin-left: 200px;
+    color: #85b0bd;
+}
